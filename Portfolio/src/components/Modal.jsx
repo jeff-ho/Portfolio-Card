@@ -9,7 +9,8 @@ export default function Modal({ open, onClose }) {
   if (!open) return null;
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
+    console.log(email, message)
   };
 
   return ReactDom.createPortal(

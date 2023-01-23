@@ -51,6 +51,14 @@ p {
   margin-bottom: 10px;
   width: 33.5em;
   height: 3em;
+  background-color: #dddddd;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .message-input {
@@ -63,9 +71,18 @@ p {
   min-width: 540px;
   max-height: 200px;
   min-height: 200px;
+  background-color: #dddddd;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .submit-button {
+  margin-top: 1em;
   padding: 1em 3em;
   background: #efefef;
   border: none;
@@ -93,6 +110,3 @@ p {
 .close-button > img {
   height: 2em;
 }
-
-
-
